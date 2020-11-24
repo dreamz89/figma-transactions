@@ -1,0 +1,36 @@
+.account {
+  background: linear-gradient(180deg, #4C54E1 0%, #6652E2 100%);
+  border-radius: 8px;
+  box-shadow: 0px 9px 19px -4px rgba(46, 51, 136, 0.12), 0px 3px 7px rgba(36, 40, 108, 0.02);
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 157px;
+  margin-right: 16px;
+  min-width: 132px;
+  padding: 14px;
+  position: relative;
+}
+
+.account-main {
+  display: flex;
+  margin-top: 22px;
+}
+
+.account-currency {
+  font-size: 18px;
+  line-height: 18px;
+  margin-right: 2px;
+}
+
+.account-amount {
+  font-size: 38px;
+  line-height: 22px;
+}
+
+.account-profile {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  height: 18px;
+  width: 18px;
+}

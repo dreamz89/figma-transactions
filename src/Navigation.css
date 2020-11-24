@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.circle {
+  border: 1px solid #C4C4C4;
+  border-radius: 50%;
+  height: 24px;
+  margin: 11px auto 7px auto;
+  width: 24px;
+}
+
+.circle-current {
+  border: 2px solid #4C54E1;
+}
+
+.underline {
+  background: #C4C4C4;
+  border-radius: 4px;
+  height: 3px;
+  margin-bottom: 27px;
+  width: 43px;
+}
+
+.underline-current {
+  background: #4C54E1;
+}
