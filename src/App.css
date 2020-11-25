@@ -56,7 +56,7 @@ h4 {
   position: relative;
 }
 
-.accounts.expanded {
+.accounts.overflow {
   overflow: visible;
 }
 
