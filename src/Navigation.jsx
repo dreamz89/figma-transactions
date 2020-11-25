@@ -7,14 +7,13 @@ function Navigation ({ nav }) {
   return (
     <div className="nav">
       {
-        locations.map(location => {
-          return (
+        locations.map(location => (
             <div>
               <div className={"circle " +  (nav === location ? "circle-current" : "")}></div>
               <div className={"underline " + (nav === location ? "underline-current" : "")}></div>
             </div>
           )
-        })
+        )
       }
     </div>
   )

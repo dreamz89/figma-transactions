@@ -1,13 +1,18 @@
 .nav {
+  background: white;
   display: flex;
   justify-content: space-around;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .circle {
   border: 1px solid #C4C4C4;
   border-radius: 50%;
   height: 24px;
-  margin: 11px auto 7px auto;
+  margin: 25px auto 7px auto;
   width: 24px;
 }
 
